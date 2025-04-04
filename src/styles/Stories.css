@@ -1,0 +1,19 @@
+.stories {
+  height: 13%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  user-select: none;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  height: 85%;
+  padding: 5px;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}

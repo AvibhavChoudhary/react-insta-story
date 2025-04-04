@@ -3,3 +3,11 @@ body {
   padding: 0;
   height: 100vh;
 }
+
+/* src/App.css */
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
