@@ -27,7 +27,7 @@ const StoryViewer: React.FC<StoryViewerProps> = ({
   const [isPaused, setIsPaused] = useState<boolean>(false);
   const [loading, setLoading] = useState(true);
 
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef<any>(null);
   const startTimeRef = useRef<number>(0);
   const elapsedRef = useRef<number>(0);
   const progressRefs = useRef<HTMLDivElement[]>([]);
