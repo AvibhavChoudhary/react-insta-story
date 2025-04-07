@@ -1,4 +1,6 @@
-export const feedData = [
+import { Post } from "../utils/types";
+
+export const feedData: Post[] = [
   {
     id: 1,
     username: "john_doe",
