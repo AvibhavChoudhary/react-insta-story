@@ -154,8 +154,11 @@ const StoryViewer: React.FC<StoryViewerProps> = ({
               <div key={i} className="progress-track">
                 <div
                   className="progress-fill"
-                  // ref={i === currentStoryIndex ? progressRef : null}
-                  ref={(el) => (progressRefs.current[i] = el)}
+                  ref={(el) => {
+                    if (el) {
+                      progressRefs.current[i] = el;
+                    }
+                  }}
                   style={{ width: i < currentStoryIndex ? "100%" : "0%" }}
                 />
               </div>

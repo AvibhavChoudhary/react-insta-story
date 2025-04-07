@@ -54,7 +54,7 @@ const Stories: React.FC = () => {
       closeViewer();
     } else {
       setSelectedUser(storiesData[(currentProfileIndex as number) + 1]);
-      setCurrentProfileIndex((prev) => prev + 1);
+      setCurrentProfileIndex((prev) => (prev as number) + 1);
       setCurrentUserStories(
         storiesData[(currentProfileIndex as number) + 1].stories
       );
@@ -66,7 +66,7 @@ const Stories: React.FC = () => {
       closeViewer();
     } else {
       setSelectedUser(storiesData[(currentProfileIndex as number) - 1]);
-      setCurrentProfileIndex((prev) => prev - 1);
+      setCurrentProfileIndex((prev) => (prev as number) - 1);
       setCurrentUserStories(
         storiesData[(currentProfileIndex as number) - 1].stories
       );
