@@ -92,7 +92,7 @@ const Stories: React.FC = () => {
         >
           <img
             className="scroll-button left"
-            src="src/assets/svg/left-arrow.svg"
+            src="/assets/svg/left-arrow.svg"
             alt="Arrow"
           />
         </div>
@@ -119,7 +119,7 @@ const Stories: React.FC = () => {
         >
           <img
             className="scroll-button right"
-            src="src/assets/svg/right-arrow.svg"
+            src="/assets/svg/right-arrow.svg"
             alt="Arrow"
           />
         </div>
