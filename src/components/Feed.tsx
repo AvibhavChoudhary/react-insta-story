@@ -8,6 +8,7 @@ function Feed() {
       {feedData.map((feedPost) => {
         return (
           <Post
+            key={feedPost.id}
             caption={feedPost.caption}
             image={feedPost.postImage}
             username={feedPost.username}

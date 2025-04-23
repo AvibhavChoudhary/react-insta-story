@@ -31,3 +31,7 @@
   text-overflow: ellipsis;
   width: 60px;
 }
+
+.story-seen {
+  background-image: none;
+}
